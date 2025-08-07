@@ -1,5 +1,6 @@
 import ProfileCard from "./Components/ProfileCard.jsx"
 import Squares from "./Background/Squares.jsx"
+import hi from './Components/hi.png'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
               handle="markkwtf"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="/src/Components/hi.png"
+              avatarUrl={hi}
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
